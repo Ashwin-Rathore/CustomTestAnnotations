@@ -7,6 +7,14 @@
   <name>Archetype - CustomTestAnnotations</name>
   <url>http://maven.apache.org</url>
 
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/Ashwin-Rathore/CustomTestAnnotations</url>
+   </repository>
+</distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>org.testng</groupId>
