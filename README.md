@@ -23,10 +23,11 @@ This provides flexibility and precision in managing and running your test suites
 1. **Add Dependency**
 
    Add the following dependency to your project's `pom.xml` if you are using Maven:
+   Dependency is present in the URL - https://github.com/Ashwin-Rathore/CustomTestAnnotations/packages/2191558
 
    ```xml
    <dependency>
-     <groupId>org.customTestAnnotations</groupId>
-     <artifactId>CustomTestAnnotations</artifactId>
-     <version>1.0.0</version>
-   </dependency>
+  <groupId>org.customTestAnnotations</groupId>
+  <artifactId>custom-test-annotations</artifactId>
+  <version>1.0.0</version>
+</dependency>
