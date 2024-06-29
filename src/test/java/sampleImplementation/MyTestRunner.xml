@@ -1,0 +1,22 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" parallel="methods" thread-count="2" verbose="1">
+
+
+    <listeners>
+        <listener class-name="listeners.CustomAnnotationInterceptor"></listener>
+        <!--        <listener class-name="com.tracelink.base.methodSelector.Dump.CustomAnnotationTransformer1"></listener>-->
+    </listeners>
+
+    <test name="Execute EpicId Test">
+        <parameter name="EpicId" value="EPIC-1"/>
+
+        <classes>
+
+            <class name="sampleImplementation.MyTest"/>
+        </classes>
+
+    </test>
+
+</suite>
+
